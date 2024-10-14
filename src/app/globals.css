@@ -25,3 +25,25 @@ body {
     text-wrap: balance;
   }
 }
+.unihead {
+  @apply text-[36px] leading-[40px] font-bold font-montserrat text-center
+  sm:text-[40px] sm:leading-[44px]
+  md:text-[44px] md:leading-[48px]
+  lg:text-[48px] lg:leading-[52px]
+  xl:text-[52px] xl:leading-[56px]
+}
+.unip{
+  @apply text-[16px] leading-[24px] font-light font-rubik text-center my-5 
+  sm:text-[18px] sm:leading-[26px]
+  md:text-[20px] md:leading-[28px]
+  lg:text-[22px] lg:leading-[30px]
+  xl:text-[24px] xl:leading-[32px]
+}
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer and Edge */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
